@@ -1,7 +1,8 @@
 /* eslint-disable default-case */
 import React from "react";
 import styled from "styled-components";
-import Utils from "../Utils";
+import Utils from "../../Utils";
+import PropTypes from 'prop-types';
 
 const ColumnStyled = styled.div`
     ${Utils}
@@ -93,4 +94,14 @@ function Column({ column, offset, children, ...rest }) {
     </ColumnStyled>
   );
 }
+
+Column.propTypes = {
+  offset: null,
+}
+
+Column.propTypes = {
+  column: PropTypes.string.isRequired,
+  offset: PropTypes.string
+}
+
 export default Column;

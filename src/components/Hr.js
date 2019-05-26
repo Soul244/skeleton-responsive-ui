@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import Utils from '../Utils';
 
 const HrStyled = styled.div`
+${Utils};
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;

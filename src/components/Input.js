@@ -1,6 +1,8 @@
 import styled from "styled-components";
+import Utils from '../Utils';
 
 const InputStyled = styled.input`
+${Utils};
   height: 38px;
   padding: 6px 10px;
   background-color: #fff;

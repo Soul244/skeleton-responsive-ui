@@ -1,11 +1,11 @@
 {
   "name": "skeleton-responsive-ui",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "skeleton boilerplate",
   "main": "build/index.js",
   "scripts": {
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -22,17 +22,16 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.2.0",
-    "webpack": "^4.32.1"
+    "styled-components": "^4.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
+    "prop-types": "^15.7.2",
+    "webpack": "^4.32.1",
     "webpack-cli": "^3.3.2"
   }
 }

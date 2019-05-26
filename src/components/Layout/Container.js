@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Utils from "../Utils";
+import Utils from "../../Utils";
 
 const ContainerStyled = styled.div`
   ${Utils}

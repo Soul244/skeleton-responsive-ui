@@ -1,7 +1,9 @@
 import React from "react";
 import styled, { css } from "styled-components";
+import Utils from '../Utils';
 
 const ButtonCss = css`
+  ${Utils};
   margin-bottom: 1rem;
   display: inline-block;
   height: 38px;

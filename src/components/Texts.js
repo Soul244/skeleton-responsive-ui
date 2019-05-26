@@ -1,6 +1,8 @@
 import styled, { css } from "styled-components";
+import Utils from '../Utils';
 
 const HCss = css`
+${Utils}
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300;
